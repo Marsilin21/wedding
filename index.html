@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Приглашение на свадьбу</title>
+    
+    <!-- Meta tags for sharing (OpenGraph) -->
+    <meta property="og:title" content="Приглашение на свадьбу">
+    <meta property="og:description" content="Дмитрий & Дарья! Мы рады пригласить вас на наше свадебное торжество 4 сентября 2026 года!">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="photo/фото.jpg">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Falling Petals Background Effect -->
+    <div id="particles-container" class="particles-container"></div>
+
+    <div class="app-container">
+        
+        <!-- ================= HERO SECTION ================= -->
+        <section class="hero-section">
+            <div class="hero-card glass-panel reveal">
+                <div class="save-the-date">Мы женимся!</div>
+                
+                <!-- Couple Hero Photo with Premium Frame -->
+                <div class="photo-frame-container">
+                    <div class="photo-frame">
+                        <img src="photo/фото.jpg" alt="Молодожены" class="hero-photo">
+                    </div>
+                    <div class="frame-decor gold-glow"></div>
+                </div>
+                
+                <div class="wedding-names">Дмитрий & Дарья</div>
+                <p class="hero-invite-text">
+                    Это официальное приглашение на нашу свадьбу! А получили вы его потому, что мы очень хотим видеть вас в этот день рядом с нами!
+                </p>
+            </div>
+        </section>
+
+        <!-- ================= CALENDAR SECTION ================= -->
+        <section class="calendar-section container">
+            <div class="glass-panel text-center reveal">
+                <div class="section-decor-leaf">❦</div>
+                <div class="date-large">04 · 09 · 26</div>
+                <div class="divider-gold"></div>
+                
+                <h3 class="month-title">СЕНТЯБРЬ 2026</h3>
+                
+                <div class="calendar-wrapper">
+                    <div class="calendar-grid">
+                        <div class="calendar-day-header">пн</div>
+                        <div class="calendar-day-header">вт</div>
+                        <div class="calendar-day-header">ср</div>
+                        <div class="calendar-day-header">чт</div>
+                        <div class="calendar-day-header">пт</div>
+                        <div class="calendar-day-header">сб</div>
+                        <div class="calendar-day-header">вс</div>
+                        
+                        <!-- Row 1 -->
+                        <div class="calendar-day empty"></div>
+                        <div class="calendar-day">1</div>
+                        <div class="calendar-day">2</div>
+                        <div class="calendar-day">3</div>
+                        <div class="calendar-day wedding-day" id="wedding-day-heart">
+                            <span class="day-number">4</span>
+                            <svg class="heart-svg" viewBox="0 0 32 32">
+                                <path d="M16,28.261l-2.029-1.848C6.749,20.804,2,16.5,2,11.239C2,6.913,5.398,3.5,9.696,3.5c2.428,0,4.759,1.13,6.304,2.913 C17.541,4.63,19.872,3.5,22.304,3.5C26.602,3.5,30,6.913,30,11.239c0,5.261-4.749,9.565-11.971,15.174L16,28.261z"/>
+                            </svg>
+                        </div>
+                        <div class="calendar-day">5</div>
+                        <div class="calendar-day">6</div>
+                        
+                        <!-- Row 2 -->
+                        <div class="calendar-day">7</div>
+                        <div class="calendar-day">8</div>
+                        <div class="calendar-day">9</div>
+                        <div class="calendar-day">10</div>
+                        <div class="calendar-day">11</div>
+                        <div class="calendar-day">12</div>
+                        <div class="calendar-day">13</div>
+                        
+                        <!-- Row 3 -->
+                        <div class="calendar-day">14</div>
+                        <div class="calendar-day">15</div>
+                        <div class="calendar-day">16</div>
+                        <div class="calendar-day">17</div>
+                        <div class="calendar-day">18</div>
+                        <div class="calendar-day">19</div>
+                        <div class="calendar-day">20</div>
+                        
+                        <!-- Row 4 -->
+                        <div class="calendar-day">21</div>
+                        <div class="calendar-day">22</div>
+                        <div class="calendar-day">23</div>
+                        <div class="calendar-day">24</div>
+                        <div class="calendar-day">25</div>
+                        <div class="calendar-day">26</div>
+                        <div class="calendar-day">27</div>
+                        
+                        <!-- Row 5 -->
+                        <div class="calendar-day">28</div>
+                        <div class="calendar-day">29</div>
+                        <div class="calendar-day">30</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= PROGRAM SECTION ================= -->
+        <section class="program-section container">
+            <h2 class="section-title reveal">Программа мероприятия</h2>
+            
+            <!-- Welcome text from the user's schedule screenshot -->
+            <div class="glass-panel text-center reveal" style="margin-bottom: 2.5rem; padding: 2rem 1.5rem;">
+                <h3 style="font-family: 'Playfair Display', serif; font-size: 1.3rem; font-weight: 500; margin-bottom: 0.8rem;">Дорогие гости!</h3>
+                <p style="font-size: 0.88rem; color: var(--text-light); line-height: 1.7; max-width: 460px; margin: 0 auto; font-weight: 300;">
+                    Мы приглашаем вас и будем искренне рады видеть каждого на торжественном мероприятии в честь нашей свадьбы. Ниже вы сможете ознакомиться с подробной информацией о программе нашего дня:
+                </p>
+            </div>
+
+            <div class="timeline-container reveal">
+                
+                <!-- Timeline Item 1: 12:00 -->
+                <div class="timeline-item">
+                    <div class="timeline-icon-box">
+                        <svg class="timeline-icon" viewBox="0 0 24 24">
+                            <!-- Columns / Classic building icon -->
+                            <path d="M4,10V21h2V10H4Z M10,10V21h2V10H10Z M16,10V21h2V10H16Z M2,22h20v1H2v-1Z M12,2L2,8v2h20V8L12,2Z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <div class="timeline-content glass-panel">
+                        <span class="timeline-time">12:00</span>
+                        <h4 class="timeline-title">Регистрация брака</h4>
+                        <p class="timeline-desc">
+                            При желании вы можете прийти пораньше и быть свидетелем торжественной регистрации в ЗАГСе по адресу: <strong>г. Городец, ул. Набережная Революции, 5 (Усадьба А.Лапшиной)</strong>.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 2: 16:00 -->
+                <div class="timeline-item">
+                    <div class="timeline-icon-box">
+                        <svg class="timeline-icon" viewBox="0 0 24 24">
+                            <!-- Heart Pin -->
+                            <path d="M12,2A7,7,0,0,0,5,9c0,5.25,7,13,7,13s7-7.75,7-13A7,7,0,0,0,12,2Zm0,9.5A2.5,2.5,0,1,1,14.5,9,2.5,2.5,0,0,1,12,11.5Z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <div class="timeline-content glass-panel">
+                        <span class="timeline-time">16:00</span>
+                        <h4 class="timeline-title">Сбор гостей</h4>
+                        <p class="timeline-desc">
+                            Приветственный фуршет на Турбазе «Мирный». Время для первых улыбок, знакомств и теплых встреч.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 3: 16:30 -->
+                <div class="timeline-item">
+                    <div class="timeline-icon-box">
+                        <svg class="timeline-icon" viewBox="0 0 24 24">
+                            <!-- Interlocked Rings -->
+                            <path d="M9.5,4A5.5,5.5,0,1,0,15,9.5,5.5,5.5,0,0,0,9.5,4Zm0,9A3.5,3.5,0,1,1,13,9.5,3.5,3.5,0,0,1,9.5,13Zm6.5-6.5a5.45,5.45,0,0,0-2,.38,5.48,5.48,0,0,1,0,7.24,5.43,5.43,0,0,0,2,.38,5.5,5.5,0,1,0,0-11Zm0,9a3.5,3.5,0,1,1,3.5-3.5A3.5,3.5,0,0,1,16,15.5Z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <div class="timeline-content glass-panel">
+                        <span class="timeline-time">16:30</span>
+                        <h4 class="timeline-title">Выездная регистрация</h4>
+                        <p class="timeline-desc">
+                            Самый важный и трогательный момент. Приготовьте носовые платочки для трогательных моментов :)
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 4: 17:00 -->
+                <div class="timeline-item">
+                    <div class="timeline-icon-box">
+                        <svg class="timeline-icon" viewBox="0 0 24 24">
+                            <!-- Cloche Food Cover with Heart -->
+                            <path d="M12,4A10,10,0,0,0,2.18,12H21.82A10,10,0,0,0,12,4Zm0,6.5c-1.5,0-2-1.5-2-1.5s.5-1.5,2-1.5,2,1.5,2,1.5S13.5,10.5,12,10.5ZM2,14v2a2,2,0,0,0,2,2H20a2,2,0,0,0,2-2V14H2Z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <div class="timeline-content glass-panel">
+                        <span class="timeline-time">17:00</span>
+                        <h4 class="timeline-title">Начало праздничного ужина</h4>
+                        <p class="timeline-desc">
+                            Время вкусной еды, теплых тостов, зажигательных танцев и веселых развлечений на Турбазе «Мирный».
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 5: 23:00 -->
+                <div class="timeline-item">
+                    <div class="timeline-icon-box">
+                        <svg class="timeline-icon" viewBox="0 0 24 24">
+                            <!-- Just Married Plate / Sign -->
+                            <path d="M19,3H5A2,2,0,0,0,3,5V19a2,2,0,0,0,2,2H19a2,2,0,0,0,2-2V5A2,2,0,0,0,19,3Zm-2,7H7V8H17Zm0,4H7V12H17Zm0,4H7V16H17Z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <div class="timeline-content glass-panel">
+                        <span class="timeline-time">23:00</span>
+                        <h4 class="timeline-title">Завершение торжества</h4>
+                        <p class="timeline-desc">
+                            К сожалению, даже такой прекрасный и незабываемый день имеет свойство заканчиваться.
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- ================= DRESS CODE SECTION ================= -->
+        <section class="dresscode-section container">
+            <div class="glass-panel text-center reveal">
+                <h2 class="section-title">Дресс-код</h2>
+                <p class="dresscode-text">
+                    Мы будем рады, если вы поддержите стиль нашего торжества и предпочтёте наряды в нашей свадебной цветовой палитре:
+                </p>
+                
+                <!-- Color circles container (3x5 Grid mimicking the silk fabric mockup) -->
+                <div class="color-palette-container">
+                    <!-- Row 1: Золотая гамма -->
+                    <div class="color-circle-wrapper" data-color="#F3E8C4" data-name="Шампань">
+                        <div class="color-circle ripple" style="background-color: #F3E8C4;"></div>
+                        <span class="color-label">Шампань</span>
+                    </div>
+                    <div class="color-circle-wrapper" data-color="#E6CCA0" data-name="Теплое золото">
+                        <div class="color-circle ripple" style="background-color: #E6CCA0;"></div>
+                        <span class="color-label">Теплое золото</span>
+                    </div>
+                    <div class="color-circle-wrapper" data-color="#D5A75C" data-name="Насыщенное золото">
+                        <div class="color-circle ripple" style="background-color: #D5A75C;"></div>
+                        <span class="color-label">Насыщ. золото</span>
+                    </div>
+
+                    <!-- Row 2: Шоколадная гамма -->
+                    <div class="color-circle-wrapper" data-color="#CBB095" data-name="Песочный шелк">
+                        <div class="color-circle ripple" style="background-color: #CBB095;"></div>
+                        <span class="color-label">Песочный шелк</span>
+                    </div>
+                    <div class="color-circle-wrapper" data-color="#997D65" data-name="Тауп">
+                        <div class="color-circle ripple" style="background-color: #997D65;"></div>
+                        <span class="color-label">Тауп</span>
+                    </div>
+                    <div class="color-circle-wrapper" data-color="#6F523B" data-name="Горький шоколад">
+                        <div class="color-circle ripple" style="background-color: #6F523B;"></div>
+                        <span class="color-label">Шоколад</span>
+                    </div>
+
+                    <!-- Row 3: Розовая гамма -->
+                    <div class="color-circle-wrapper" data-color="#F6E2E1" data-name="Нежная пудра">
+                        <div class="color-circle ripple" style="background-color: #F6E2E1;"></div>
+                        <span class="color-label">Нежная пудра</span>
+                    </div>
+                    <div class="color-circle-wrapper" data-color="#CD9D9E" data-name="Пыльная роза">
+                        <div class="color-circle ripple" style="background-color: #CD9D9E;"></div>
+                        <span class="color-label">Пыльная роза</span>
+                    </div>
+                    <div class="color-circle-wrapper" data-color="#AC7074" data-name="Розовое дерево">
+                        <div class="color-circle ripple" style="background-color: #AC7074;"></div>
+                        <span class="color-label">Розовое дерево</span>
+                    </div>
+
+                    <!-- Row 4: Голубая гамма -->
+                    <div class="color-circle-wrapper" data-color="#E3E8EC" data-name="Серебряный лед">
+                        <div class="color-circle ripple" style="background-color: #E3E8EC;"></div>
+                        <span class="color-label">Серебряный лед</span>
+                    </div>
+                    <div class="color-circle-wrapper" data-color="#ACC5DA" data-name="Небесный">
+                        <div class="color-circle ripple" style="background-color: #ACC5DA;"></div>
+                        <span class="color-label">Небесный</span>
+                    </div>
+                    <div class="color-circle-wrapper" data-color="#8297AF" data-name="Серо-голубой">
+                        <div class="color-circle ripple" style="background-color: #8297AF;"></div>
+                        <span class="color-label">Серо-голубой</span>
+                    </div>
+
+                    <!-- Row 5: Зеленая гамма -->
+                    <div class="color-circle-wrapper" data-color="#A3AB8E" data-name="Шалфейный">
+                        <div class="color-circle ripple" style="background-color: #A3AB8E;"></div>
+                        <span class="color-label">Шалфейный</span>
+                    </div>
+                    <div class="color-circle-wrapper" data-color="#707C64" data-name="Полынный">
+                        <div class="color-circle ripple" style="background-color: #707C64;"></div>
+                        <span class="color-label">Полынный</span>
+                    </div>
+                    <div class="color-circle-wrapper" data-color="#4B5935" data-name="Оливковый">
+                        <div class="color-circle ripple" style="background-color: #4B5935;"></div>
+                        <span class="color-label">Оливковый</span>
+                    </div>
+                </div>
+                <small class="copy-hint">Нажмите на кружок, чтобы скопировать HEX-код цвета</small>
+                
+                <!-- Countdown Timer -->
+                <div class="countdown-title">До свадьбы осталось:</div>
+                <div class="countdown-container">
+                    <div class="countdown-item glass-item">
+                        <span class="countdown-num" id="cd-days">00</span>
+                        <span class="countdown-label">Дни</span>
+                    </div>
+                    <div class="countdown-item glass-item">
+                        <span class="countdown-num" id="cd-hours">00</span>
+                        <span class="countdown-label">Часы</span>
+                    </div>
+                    <div class="countdown-item glass-item">
+                        <span class="countdown-num" id="cd-minutes">00</span>
+                        <span class="countdown-label">Минуты</span>
+                    </div>
+                    <div class="countdown-item glass-item">
+                        <span class="countdown-num" id="cd-seconds">00</span>
+                        <span class="countdown-label">Секунды</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= ADDRESS SECTION ================= -->
+        <section class="address-section container">
+            <div class="glass-panel text-center reveal">
+                <h2 class="section-title">Как добраться?</h2>
+                
+                <!-- Location 1: ЗАГС -->
+                <div class="location-card" style="margin-bottom: 3rem; text-align: center;">
+                    <div class="section-decor-leaf" style="font-size: 1.5rem; color: var(--gold-color); margin-bottom: 0.5rem;">🏛️</div>
+                    <h3 class="location-name" style="font-family: 'Playfair Display', serif; font-size: 1.4rem; margin-bottom: 0.3rem;">Торжественная регистрация</h3>
+                    <h4 style="font-family: 'Montserrat', sans-serif; font-weight: 500; font-size: 0.95rem; color: var(--gold-dark); margin-bottom: 0.3rem;">ЗАГС (Усадьба А.Лапшиной)</h4>
+                    <p class="location-address" style="font-size: 0.85rem; color: var(--text-light); margin-bottom: 1.2rem; max-width: 320px; margin-left: auto; margin-right: auto; line-height: 1.5;">ул. Набережная Революции, 5, Городец, 606502</p>
+                    
+                    <div class="map-wrapper card-shadow" style="height: 240px; border-radius: 20px; overflow: hidden; margin-bottom: 1.2rem; border: 1.5px solid rgba(255,255,255,0.7);">
+                        <iframe src="https://yandex.ru/map-widget/v1/?ll=43.465156,56.641773&z=16&pt=43.465156,56.641773,pm2rdm" width="100%" height="100%" frameborder="0" allowfullscreen="true" style="position:relative;"></iframe>
+                    </div>
+                    <a href="https://yandex.ru/maps/?text=56.641773,43.465156" target="_blank" class="btn btn-secondary btn-sm">
+                        <svg viewBox="0 0 24 24" width="12" height="12" class="btn-icon" style="margin-right: 6px;"><path d="M12,2a8,8,0,0,0-8,8c0,5.25,8,12,8,12s8-6.75,8-12A8,8,0,0,0,12,2Zm0,11a3,3,0,1,1,3-3A3,3,0,0,1,12,13Z" fill="currentColor"/></svg>
+                        Открыть в Яндекс.Картах
+                    </a>
+                </div>
+                
+                <div class="divider-gold" style="margin: 2.5rem auto; width: 80px;"></div>
+                
+                <!-- Location 2: Турбаза -->
+                <div class="location-card" style="text-align: center;">
+                    <div class="section-decor-leaf" style="font-size: 1.5rem; color: var(--gold-color); margin-bottom: 0.5rem;">🌲</div>
+                    <h3 class="location-name" style="font-family: 'Playfair Display', serif; font-size: 1.4rem; margin-bottom: 0.3rem;">Свадебный банкет</h3>
+                    <h4 style="font-family: 'Montserrat', sans-serif; font-weight: 500; font-size: 0.95rem; color: var(--gold-dark); margin-bottom: 0.3rem;">Турбаза «Мирный»</h4>
+                    <p class="location-address" style="font-size: 0.85rem; color: var(--text-light); margin-bottom: 1.2rem; max-width: 320px; margin-left: auto; margin-right: auto; line-height: 1.5;">д. Оскордино, 1, Городецкий район</p>
+                    
+                    <div class="map-wrapper card-shadow" style="height: 240px; border-radius: 20px; overflow: hidden; margin-bottom: 1.2rem; border: 1.5px solid rgba(255,255,255,0.7);">
+                        <iframe src="https://yandex.ru/map-widget/v1/?ll=43.593198,56.667967&z=15&pt=43.593198,56.667967,pm2rdm" width="100%" height="100%" frameborder="0" allowfullscreen="true" style="position:relative;"></iframe>
+                    </div>
+                    <a href="https://yandex.ru/maps/?text=56.667967,43.593198" target="_blank" class="btn btn-secondary btn-sm">
+                        <svg viewBox="0 0 24 24" width="12" height="12" class="btn-icon" style="margin-right: 6px;"><path d="M12,2a8,8,0,0,0-8,8c0,5.25,8,12,8,12s8-6.75,8-12A8,8,0,0,0,12,2Zm0,11a3,3,0,1,1,3-3A3,3,0,0,1,12,13Z" fill="currentColor"/></svg>
+                        Открыть в Яндекс.Картах
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= DETAILS SECTION ================= -->
+        <section class="details-section container">
+            <h2 class="section-title cursive text-center reveal" style="font-size: 3rem; margin-bottom: 2rem;">Details</h2>
+            <div class="details-grid">
+                
+                <!-- Details Card 1: Coordinator -->
+                <div class="details-card glass-panel reveal">
+                    <div class="details-icon-wrapper">
+                        <svg class="details-icon" viewBox="0 0 24 24">
+                            <path d="M6.62,10.79A15.05,15.05,0,0,0,13.21,17.38l2.2-2.2a1,1,0,0,1,1.11-.27,11.58,11.58,0,0,0,3.63.58,1,1,0,0,1,1,1V20a1,1,0,0,1-1,1A17,17,0,0,1,3,4,1,1,0,0,1,4,3H7.39a1,1,0,0,1,1,1,11.58,11.58,0,0,0,.58,3.63,1,1,0,0,1-.27,1.11Z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3>Координатор</h3>
+                    <p>По организационным вопросам в день праздника вы можете обратиться к нашему свадебному координатору:</p>
+                    <a href="tel:+79040639665" class="phone-button">+7 (904) 063-96-65</a>
+                    <div class="coordinator-name">Полина</div>
+                </div>
+                
+                <!-- Details Card 2: Gifts -->
+                <div class="details-card glass-panel reveal">
+                    <div class="details-icon-wrapper">
+                        <svg class="details-icon" viewBox="0 0 24 24">
+                            <path d="M20,4H4A2,2,0,0,0,2,6V18a2,2,0,0,0,2,2H20a2,2,0,0,0,2-2V6A2,2,0,0,0,20,4Zm0,4-8,5L4,8V6l8,5,8-5Z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3>Подарки</h3>
+                    <p>Свои тёплые слова и пожелания приносите в сердцах, а подарки — в конверте.</p>
+                </div>
+                
+                <!-- Details Card 3: Flowers/Wine -->
+                <div class="details-card glass-panel reveal">
+                    <div class="details-icon-wrapper">
+                        <svg class="details-icon" viewBox="0 0 24 24">
+                            <path d="M10,21h4c0.55,0,1-0.45,1-1v-4H9v4C9,20.55,9.45,21,10,21z M20,6c-0.55,0-1,0.45-1,1v4c0,0.55,0.45,1,1,1s1-0.45,1-1V7 C21,6.45,20.55,6,20,6z M4,7v4c0,0.55,0.45,1,1,1s1-0.45,1-1V7c0-0.55-0.45-1-1-1S4,6.45,4,7z M12,2C8.69,2,6,4.69,6,8v5h12V8 C18,4.69,15.31,2,12,2z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3>Цветы</h3>
+                    <p>Пожалуйста, не дарите нам цветы! Будет здорово, если вместо них вы принесете бутылочку вина для нашей домашней винотеки.</p>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- ================= RSVP SECTION ================= -->
+        <section class="rsvp-section container" id="rsvp">
+            <div class="glass-panel reveal">
+                <div class="rsvp-header text-center">
+                    <h2 class="section-title">Подтверждение присутствия</h2>
+                    <p class="rsvp-subtitle">Пожалуйста, заполните форму ниже до 1 июля 2026 года, чтобы мы могли учесть все детали при организации торжества.</p>
+                </div>
+                
+                <form id="rsvp-form" class="rsvp-form">
+                    <!-- Name Input -->
+                    <div class="form-group">
+                        <label for="guest-name" class="form-label">Ваше Имя и Фамилия</label>
+                        <input type="text" id="guest-name" name="guestName" class="form-input" placeholder="Иван Иванов" required>
+                    </div>
+                    
+                    <!-- Attendance choices -->
+                    <div class="form-group">
+                        <label class="form-label">Планируете ли вы присутствовать на свадьбе?</label>
+                        <div class="rsvp-options-grid">
+                            <label class="rsvp-radio-card">
+                                <input type="radio" name="attendance" value="yes" required checked>
+                                <div class="radio-card-content">
+                                    <span class="radio-title">Да, с удовольствием приду</span>
+                                </div>
+                            </label>
+                            <label class="rsvp-radio-card">
+                                <input type="radio" name="attendance" value="no">
+                                <div class="radio-card-content">
+                                    <span class="radio-title">К сожалению, не смогу прийти</span>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <!-- Attending fields (hidden/shown dynamically) -->
+                    <div id="attending-details" class="attending-details">
+                        
+                        <!-- Guest Companion -->
+                        <div class="form-group">
+                            <label class="form-label">Вы придете один или с парой?</label>
+                            <div class="form-inline-radios">
+                                <label class="radio-inline">
+                                    <input type="radio" name="companion" value="single" checked>
+                                    <span>Один / Одна</span>
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="companion" value="couple">
+                                    <span>С парой</span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <!-- Companion Name (conditional) -->
+                        <div class="form-group hidden" id="companion-name-group">
+                            <label for="companion-name" class="form-label">Имя и Фамилия вашей пары</label>
+                            <input type="text" id="companion-name" name="companionName" class="form-input" placeholder="Мария Иванова">
+                        </div>
+                        
+                        <!-- Event Parts Preferences -->
+                        <div class="form-group">
+                            <label class="form-label">На какой части события вы планируете к нам присоединиться?</label>
+                            <div class="form-inline-radios vertical-mobile">
+                                <label class="radio-inline">
+                                    <input type="radio" name="eventParts" value="И ЗАГС, и банкет" checked>
+                                    <span>И ЗАГС, и банкет</span>
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="eventParts" value="Только банкет">
+                                    <span>Только банкет</span>
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="eventParts" value="Только ЗАГС">
+                                    <span>Только ЗАГС</span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <!-- Alcohol Preferences -->
+                        <div class="form-group">
+                            <label class="form-label">Каким напиткам вы отдаете предпочтение? (можно выбрать несколько)</label>
+                            <div class="checkbox-grid">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="alcohol" value="вино белое">
+                                    <span>Белое вино</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="alcohol" value="вино красное">
+                                    <span>Красное вино</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="alcohol" value="шампанское">
+                                    <span>Шампанское / Игристое</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="alcohol" value="крепкий алкоголь">
+                                    <span>Крепкие напитки (коньяк/виски)</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="alcohol" value="безалкогольные">
+                                    <span>Безалкогольные напитки</span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <!-- Food/Allergies Preferences -->
+                        <div class="form-group">
+                            <label for="food-prefs" class="form-label">Пожелания по меню или пищевые аллергии (если есть)</label>
+                            <textarea id="food-prefs" name="foodPrefs" class="form-textarea" placeholder="Например: вегетарианское меню, аллергия на орехи..."></textarea>
+                        </div>
+                        
+                        <!-- Shuttle preferences -->
+                        <div class="form-group">
+                            <label class="form-label">Понадобится ли вам трансфер? (будет организован из г. Городец и г. Заволжье)</label>
+                            <div class="form-inline-radios vertical-mobile">
+                                <label class="radio-inline">
+                                    <input type="radio" name="shuttle" value="both" checked>
+                                    <span>Да, на торжество и обратно</span>
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="shuttle" value="back">
+                                    <span>Только обратно после банкета</span>
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="shuttle" value="none">
+                                    <span>Нет, приеду самостоятельно</span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <!-- Second Day Attendance -->
+                        <div class="form-group">
+                            <label class="form-label">Будете присутствовать на втором дне свадьбы?</label>
+                            <div class="form-inline-radios">
+                                <label class="radio-inline">
+                                    <input type="radio" name="secondDay" value="Да" checked>
+                                    <span>Да, с удовольствием</span>
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="secondDay" value="Нет">
+                                    <span>Нет, не смогу</span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    <!-- Submit button -->
+                    <div class="text-center" style="margin-top: 2rem;">
+                        <button type="submit" id="rsvp-submit-btn" class="btn btn-primary btn-lg">Отправить ответ</button>
+                    </div>
+                </form>
+                
+                <!-- Success message (hidden initially) -->
+                <div id="rsvp-success-message" class="rsvp-success-message hidden text-center">
+                    <div class="success-icon-box">♥</div>
+                    <h3>Спасибо за ответ!</h3>
+                    <p id="success-text">Ваше подтверждение успешно отправлено молодожёнам.</p>
+                    <p class="success-subtext">Мы с нетерпением ждем встречи с вами 4 сентября!</p>
+                    <button id="rsvp-edit-btn" class="btn btn-secondary btn-sm" style="margin-top: 1.5rem;">Изменить ответ</button>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Footer -->
+        <footer class="footer text-center">
+            <p>Ждём вас на нашем празднике!</p>
+            <div class="footer-names">Дмитрий & Дарья</div>
+        </footer>
+        
+    </div>
+
+    <!-- ================= ADMIN PANEL / GUEST LIST (HIDDEN BY DEFAULT) ================= -->
+    <div id="admin-trigger-btn" class="admin-trigger-btn hidden" title="Панель администратора">
+        ⚙️
+    </div>
+    
+    <div id="admin-panel" class="admin-panel hidden">
+        <div class="admin-panel-content glass-panel">
+            <div class="admin-panel-header">
+                <h2>Панель управления RSVP</h2>
+                <button id="admin-close-btn" class="admin-close-btn">&times;</button>
+            </div>
+            
+            <div class="admin-tabs">
+                <button class="admin-tab-btn active" data-tab="tab-guests">Список гостей</button>
+                <button class="admin-tab-btn" data-tab="tab-stats">Аналитика / Статистика</button>
+            </div>
+            
+            <!-- Tab 1: Guest List -->
+            <div id="tab-guests" class="admin-tab-content active">
+                <div class="admin-action-bar">
+                    <button id="admin-export-csv" class="btn btn-secondary btn-sm">📊 Экспорт в CSV</button>
+                    <button id="admin-clear-all" class="btn btn-danger btn-sm">🗑️ Очистить базу</button>
+                </div>
+                <div class="table-responsive">
+                    <table class="admin-table">
+                        <thead>
+                            <tr>
+                                <th>Имя гостя</th>
+                                <th>Присутствие</th>
+                                <th>Пара / Имя</th>
+                                <th>Части события</th>
+                                <th>Алкоголь</th>
+                                <th>Пожелания / Аллергии</th>
+                                <th>Трансфер</th>
+                                <th>Второй день</th>
+                                <th>Дата ответа</th>
+                                <th>Действия</th>
+                            </tr>
+                        </thead>
+                        <tbody id="admin-guest-tbody">
+                            <!-- Populated via JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <!-- Tab 2: Analytics -->
+            <div id="tab-stats" class="admin-tab-content">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-num" id="stat-total-rsvp">0</div>
+                        <div class="stat-label">Всего ответов</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-num text-success" id="stat-total-yes">0</div>
+                        <div class="stat-label">Придут на свадьбу</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-num text-danger" id="stat-total-no">0</div>
+                        <div class="stat-label">Не смогут прийти</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-num text-primary" id="stat-total-shuttle">0</div>
+                        <div class="stat-label">Нужен трансфер</div>
+                    </div>
+                </div>
+                
+                <div class="stats-details-row">
+                    <div class="stats-col glass-panel">
+                        <h4>Предпочтения по алкоголю</h4>
+                        <ul class="stats-list" id="stat-alcohol-list">
+                            <!-- Populated via JS -->
+                        </ul>
+                    </div>
+                    <div class="stats-col glass-panel">
+                        <h4>Предпочтения по компании</h4>
+                        <ul class="stats-list" id="stat-companion-list">
+                            <!-- Populated via JS -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <!-- Copy feedback element -->
+    <div id="toast-message" class="toast-message">Цвет скопирован!</div>
+
+    <!-- JS Scripts -->
+    <script src="js/app.js"></script>
+</body>
+</html>
